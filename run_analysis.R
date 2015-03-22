@@ -7,9 +7,9 @@ if(!file.exists("./data")){
         dir.create("./data")
 }
 ##Download the data set.
-#fileUrl <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
-#download.file(fileUrl,destfile="./data/source.zip")
-#unzip("./data/source.zip", exdir="./data/source")
+fileUrl <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
+download.file(fileUrl,destfile="./data/source.zip")
+unzip("./data/source.zip", exdir="./data/source")
 
 print("Downlaoding and Unzipping the data complete")
 
