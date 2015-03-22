@@ -2,6 +2,7 @@
 
 print("Check if data directory exists/ create if not")
 require(plyr)
+require(reshape2)
 
 if(!file.exists("./data")){
         dir.create("./data")
