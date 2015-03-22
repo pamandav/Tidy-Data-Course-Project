@@ -18,4 +18,12 @@ The output consists of mean of all variables related to mean and standard deviat
 2. CookBook.md -  Describes the variables, the data, and any transformations that are performed.
 			   -  It has step by step description of run_analysis.R
 3. README.md - Gives the list of all the scripts.
-4. tidydata.txt - Has the output of the R script.			   
+4. tidydata.txt - Has the output of the R script.		
+
+##Explanation of the analysys file.
+
+1. run_analysis.R  is the script that does transformations to get the tidy data.
+2. First the data is downloaded from the URL mentioned.
+3. Next the data is read from the files downloaded.
+4. The transformations mentioned in the CookBook.md are performed.
+5. The tdy data is then written to a file(tidydata.txt)
