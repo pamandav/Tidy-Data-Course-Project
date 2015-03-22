@@ -20,7 +20,7 @@ The output consists of mean of all variables related to mean and standard deviat
 3. README.md - Gives the list of all the scripts.
 4. tidydata.txt - Has the output of the R script.		
 
-##Explanation of the analysys file.
+##Explanation of the analysis file.
 
 1. run_analysis.R  is the script that does transformations to get the tidy data.
 2. First the data is downloaded from the URL mentioned.
